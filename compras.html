@@ -5,7 +5,7 @@
     
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Página em construção</title>
+    <title>KOKAI|Compra </title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <script src='comando.js'></script>
 </head>
@@ -15,16 +15,18 @@
         <label for="comida">Escolha a refeição que deseja, clique nas opções abaixo:</label>
         <br><br>
         <select id="comida" name="comida" multiple="multiple">
-          <option selected="selected">R&B</option>
-          <option>sushi</option>
-          <option>hot roll</option>
-          <option>sla</option>
-          <option>sim</option>
+          <option selected="selected">SUSHI</option>
+          <option>TEMAKI</option>
+          <option>GUIOZA</option>
+          <option>HARUMAKI</option>
+          <option>HOT ROLL</option>
+          <option>SASHIMI</option>
         </select>
       </div>
       <br><br>
     </form>
-    
+
+<!--JAVA SCRIPT-->
     <script>
     function howMany(selectObject) {
       var numeroSelecionadas = 0;
@@ -41,9 +43,11 @@
       alert('Total de opções selecionadas: ' + howMany(document.selectForm.tipoMusica))
     });
     </script>
+<!--FIM DO JAVA SCRIPT-->
+
     <h3>Observações:</h3>
     <div id="container">
-        <label id="nome">Nome:</label>
+        <label id="nome">Digite aqui:</label>
         <input class="form-controll" id="nomeUser" type="text">
         <br>
         <button class="btn" type="button" onclick="salvarUsuario()">Salvar</button>
@@ -58,7 +62,7 @@
         </table>
     </div>
     <br> <br> <br>
-    <a href="agradecimento.html"><button>confirmar compra</button></a>
-    
+    <a href="agradecimento.html"><button>Confirmar compra!</button></a>
+    <a href="pagina1.html"><button>Voltar</button></a>
 </body>
 </html>

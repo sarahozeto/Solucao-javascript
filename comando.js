@@ -1,6 +1,14 @@
 //verificação de preenchimento de login
+function Verifica(){
+    let user = document.getElementById('email').value;
+    let senha = document.getElementById('subject').value;
 
-//verificação de preenchimento de cadastro
+    if(!user || !senha){
+        alert("Por favor preencha todos os campos obrigatórios!");
+    } else{
+        window.location.href = "compras.html";
+    }
+}
 
 //função para criar a lista de itens e guardar
 var dadosLista = [];
@@ -39,6 +47,8 @@ function excluir(i){
     document.getElementById("tabela").deleteRow(i);
 }
 
-// FUNÇÃO PARA IR OUTRA TELA
+// FUNÇÃO PARA IR PARA OUTRA TELA
 
-function 
+function irTela(){
+    
+}
