@@ -19,13 +19,10 @@ function salvarUsuario(){
         dadosLista.push(nomeUsuario);
         criaLista();
         document.getElementById("nomeUser").value = ''
-    }else{
-        alert("Digite um nome!");
-        document.getElementById('nomeUser').focus();
     }
 }
 function criaLista(){
-    let tabela = document.getElementById("tabela").innerHTML = "<tr><th>Nome usuário:</th><th>Ações:</ th></tr>";
+    let tabela = document.getElementById("tabela").innerHTML;
 
     for(let i=0; i<= (dadosLista.length -1); i++){
         tabela += "<tr><td>" + dadosLista[i]  + "</td><td> <button onclick='editar(this.parentNode.parentNode.rowIndex)'>Editar</button><button onclick='excluir(this.parentNode.parentNode.rowIndex)'>Excluir</button></td></tr>";

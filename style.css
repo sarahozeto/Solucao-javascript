@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(255, 212, 196);
+}
+
+#Pagn{
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    color: coral;
+}
+
+#login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(39, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 20px;
+}
+/* CONFIGURAÇÃO DA PÁGINA DE COMPRAS*/
+#select{
+    text-align: center;
+    font-weight: bold;
+}
+
+select{
+    display: inline-block;
+	width: 150px;
+	cursor: pointer;
+  	padding: 10px;
+  	height: 150px;
+  	outline: 0; 
+  	border: 0;
+	border-radius: 0;
+	background: rgb(39, 0, 0);
+	font-size: 1em;
+	color: #ffffff;
+	font-family: 'Quicksand', sans-serif;
+	border:2px solid black;
+    border-radius: 12px;
+    position: relative;
+    transition: all 0.25s ease;
+}
+
+button{
+    background-color: rgb(112, 18, 18);
+    color: rgb(250, 225, 196);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 10ch;
+    margin: 15px;
+    border-radius: 5px;
+    width: 100px;
+}

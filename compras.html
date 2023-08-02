@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    
+<head> 
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>KOKAI|Compra </title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     <script src='comando.js'></script>
 </head>
 <body>
+<div id="select">
 <form name="selectForm">
-    <div id="select">
         <label for="comida">Escolha a refeição que deseja, clique nas opções abaixo:</label>
         <br><br>
         <select id="comida" name="comida" multiple="multiple">
@@ -21,10 +20,13 @@
           <option>HARUMAKI</option>
           <option>HOT ROLL</option>
           <option>SASHIMI</option>
+          <option>TEMPURÁ</option>
+          <option>MISSOSHIRU</option>
+          <option>HIYAYAKKO</option>
         </select>
-      </div>
-      <br><br>
-    </form>
+    </div>
+  <br><br>
+</form>
 
 <!--JAVA SCRIPT-->
     <script>
@@ -45,9 +47,8 @@
     </script>
 <!--FIM DO JAVA SCRIPT-->
 
-    <h3>Observações:</h3>
     <div id="container">
-        <label id="nome">Digite aqui:</label>
+        <label id="nome"> <strong>Observações</strong></label>
         <input class="form-controll" id="nomeUser" type="text">
         <br>
         <button class="btn" type="button" onclick="salvarUsuario()">Salvar</button>
@@ -61,8 +62,10 @@
             </tr>
         </table>
     </div>
+    <div id="">
     <br> <br> <br>
     <a href="agradecimento.html"><button>Confirmar compra!</button></a>
     <a href="pagina1.html"><button>Voltar</button></a>
+    </div>
 </body>
 </html>
