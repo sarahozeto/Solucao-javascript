@@ -18,7 +18,7 @@ function salvarUsuario(){
     if(nomeUsuario){
         dadosLista.push(nomeUsuario);
         criaLista();
-        document.getElementById("nomeUser").value = ''
+        document.getElementById("nomeUser").value = '';
     }
 }
 function criaLista(){
@@ -34,7 +34,8 @@ function criaLista(){
 
 function editar(i){
     document.getElementById("nomeUser").value = dadosLista[(i - 1)]; 
-    dadosLista.splice(dadosLista[(i -1 )], 1);
+    dadosLista.splice(dadosLista[(i -1)], 1);
+    document.getElementById("tabela").deleteRow(i);
 }
 
 //FUNÇÃO PARA EXCLUIR NOME

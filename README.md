@@ -9,14 +9,9 @@ Tarefas concluídas:
 - botões funcionando
 - javascript funcionando
 - todas páginas tem título
+- css completo
+- a página compras estava com defeito no "editar", erro já corrigido!
 
-Próximos passos:
-- começar css
 
-
-Erros:
-pagina1 saiu do lugar
-
-css já feito:
-página1
-login
+Próximos passos (caso eu tenha oportunidade de mexer nesse código):
+- quando o usuário clica em "confirmar compra" a tela apenas muda e também não mostra o valor, próximo passo seria colocar os valores dos pratos e a soma desses valores (ex: o cliente escolhe determinada quantidade de produtos e, quando clicar para confirmar a compra, aparece uma mensagem dizendo o valor total da compra).

@@ -2,11 +2,17 @@ body{
     background-color: rgb(255, 212, 196);
 }
 
+#grata{
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    color: rgb(255, 255, 255);
+}
 #Pagn{
     text-align: center;
     justify-content: center;
     margin-top: 100px;
-    color: coral;
+    color: rgb(255, 255, 255);
 }
 
 #login{
